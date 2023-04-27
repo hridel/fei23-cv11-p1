@@ -3,4 +3,4 @@ project(p01 C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(p01 main.c)
+add_executable(p01 main.c player.c player.h)
